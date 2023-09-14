@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [[ $EUID -ne 0 ]]; then
-   echo "UID != 0" 
-   exit 1
-fi
-
 pacu_dir=/opt/pacu
 
 function usage {
